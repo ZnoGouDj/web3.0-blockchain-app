@@ -23,10 +23,15 @@ const Navbar = () => {
         <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">Login</li>
       </ul>
       <div className="flex relative">
-        {toggleMenu ? (
+        {!toggleMenu && (
+          <HiMenuAlt4
+            fontSize={28}
+            className="text-white md:hidden cursor-pointer"
+            onClick={() => setToggleMenu(true)}
+          />
+        )}
+        {toggleMenu && (
           <AiOutlineClose fontSize={28} className="text-white cursor-pointer" onClick={() => setToggleMenu(false)} />
-        ) : (
-          <HiMenuAlt4 fontSize={28} className="text-white cursor-pointer" onClick={() => setToggleMenu(true)} />
         )}
         {toggleMenu && (
           <ul
