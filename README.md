@@ -1,6 +1,6 @@
 ### [Live Site](https://krypto-service99.netlify.app/)
 
-![Chat Application](https://postimg.cc/N2KhfwKP)
+![Chat Application](https://i.postimg.cc/d3BJ6sw-v/krypto99.png)
 
 ## Introduction:
 
